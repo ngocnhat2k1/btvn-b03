@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 .container{
-    width: 1170px;
+    position: relative;
+    max-width: 1920px;
     margin: 0 auto;
+    min-height: 1080px;
+
 }
 .box-header-backgroud{
-    position: relative;
     border: 0px solid #1b1e30;
     background-color: #1b1e30;
     text-align: center;
     position: relative;
+    height: auto;
 }
 .header{
     text-align: center;
@@ -20,7 +23,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 .header-top{
-    padding-top: 91px;
+    border: 0px solid #3b4259;
+    background-color:#3b4259 ;
+    display: inline-block;   
+    margin-top: 91px; 
     font-size: 30px;
     color: #ffffff  ;
     font-family: 'Montserrat', sans-serif;
@@ -36,18 +42,17 @@
     font-family: 'PT Serif', serif;
     font-size: 20px;
     color: #ffffff;
-    padding-top: 40px;
+    padding-top: 25px;
     ;
 }
 .button-1{
     
     background-color: #1b1e30;
-    border:none;
+    border: 1px solid white;
     color: white;
     padding: 19px 35px;
     border-radius: 26px;
-    text-align: center;
-    margin-top: 40px;
+    margin-top: 35px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
@@ -57,17 +62,78 @@
     color: #1b1e30;
     padding: 19px 35px;
     border-radius: 26px;
-    text-align: center;
     margin: 4px 2px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-decoration: underline;
 }
-.inline-block{
-    border:22px solid white;
-    display: inline-block;
+.imgcenter{
+    margin-top: 5.1%;
+}
+.box-header-backgroud >[class*="image"]
+{
+}
+.image1{
+    position: absolute; 
+    width: 22.6%;
+    height: 23.7%;
+    left: 4.166666%;
+    top: 63%;
+
+}
+.image2{
+    position: absolute;
+    width: 17.2%;
+    height: 18.52%;
+    left: 71.87%;
+    top: 65.74%;
+
+}.image4{
+    position: absolute;
+    left: 1.8%;
+    top: 41.66666%;
+    
+
+}
+.image3{
+    position: absolute;
+    left: 14%;
+    top: 32%;
+
+}
+
+.image5{
+    position: absolute;
+    left: 69.53%;
+    top: 41.666666%;
+
+
+}
+.image6{
+    position: absolute;
+    top:31.9444%;
+    left: 81.51%;
+
+}
+.image7{
+    position: absolute;
+    top: 59.53%;
+    right: 0;
+
+}
+.deep{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
     text-align: center;
-    width: 48%;
-    height: 390px;
-    border-radius: 20px;
+    color: #f4f5f6;
+    padding-top: 140px;
+}
+.in-deep
+{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 36px;
+    color: #272931;
+    left: 42%;
+    top:18%;
 }
